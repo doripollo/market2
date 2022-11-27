@@ -24,7 +24,9 @@
     </div>
 
 
-
+    <div>
+        <a href="{{ route('novedades.index') }}">Ventana novedades</a>
+    </div>
 
     {{-- <div class="row row-cols-1 row-cols-md-3 g-4">
         @foreach ($productos as $item)
