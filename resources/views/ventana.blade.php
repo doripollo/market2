@@ -24,9 +24,9 @@
     </div>
 
 
-    <div>
+    <a>
         <a href="{{ route('novedades.index') }}">Ventana novedades sin debug</a>
-    </div>
+    </a>
 
     {{-- <div class="row row-cols-1 row-cols-md-3 g-4">
         @foreach ($productos as $item)
