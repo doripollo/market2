@@ -25,7 +25,7 @@
 
 
     <div>
-        <a href="{{ route('novedades.index') }}">Ventana novedades</a>
+        <a href="{{ route('novedades.index') }}">Ventana novedades sin debug</a>
     </div>
 
     {{-- <div class="row row-cols-1 row-cols-md-3 g-4">
@@ -42,6 +42,7 @@
         @endforeach
     </div> --}}
 
+    
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
         integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
